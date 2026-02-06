@@ -3050,7 +3050,7 @@ footer .copyright span:last-child::after {
     text-justify: inter-word;
     line-height: 1.6;
 }
-/* ===================== MOBILE BACKGROUND FIX ===================== */
+/* ===================== MOBILE BACKGROUND FIX ======================= */
 @media screen and (max-width: 1024px) {
   #intro {
     background: url('../images/intro-bg.jpg') center center / cover no-repeat fixed !important;
@@ -3081,4 +3081,5 @@ footer .copyright span:last-child::after {
     background: rgba(0, 0, 0, 0.6) !important; /* Lighter overlay for mobile */
   }
 }
+
 
