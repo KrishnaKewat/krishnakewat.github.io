@@ -3050,23 +3050,3 @@ footer .copyright span:last-child::after {
     text-justify: inter-word;
     line-height: 1.6;
 }
-/* =========================
-   FORCE INTRO BACKGROUND ON MOBILE
-========================= */
-#intro {
-  background: url("images/intro-bg.jpg") no-repeat center center !important;
-  background-size: cover !important;
-}
-
-/* Fix iOS background rendering */
-@supports (-webkit-touch-callout: none) {
-  #intro {
-    background-attachment: scroll !important;
-  }
-}
-#intro::before{
-  background: url("images/intro-bg.jpg") center center / cover no-repeat !important;
-}
-background: url("images/intro-bg.jpg");
-
-
