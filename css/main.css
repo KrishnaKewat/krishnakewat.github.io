@@ -3067,5 +3067,6 @@ footer .copyright span:last-child::after {
 #intro::before{
   background: url("images/intro-bg.jpg") center center / cover no-repeat !important;
 }
-background: url("images/intro-bg.jpg"); ✅
+background: url("images/intro-bg.jpg");
+
 
