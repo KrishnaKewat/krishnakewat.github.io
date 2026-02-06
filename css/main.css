@@ -3050,3 +3050,35 @@ footer .copyright span:last-child::after {
     text-justify: inter-word;
     line-height: 1.6;
 }
+/* ===================== MOBILE BACKGROUND FIX ===================== */
+@media screen and (max-width: 1024px) {
+  #intro {
+    background: url('../images/intro-bg.jpg') center center / cover no-repeat fixed !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    background-attachment: scroll !important; /* Fixed doesn't work well on iOS */
+  }
+}
+/* For tablets */
+@media screen and (max-width: 768px) {
+  #intro {
+    background: url('../images/intro-bg.jpg') center center / cover no-repeat scroll !important;
+    background-size: cover !important;
+  }
+}
+
+/* For phones */
+@media screen and (max-width: 480px) {
+  #intro {
+    background: url('../images/intro-bg.jpg') center center / cover no-repeat scroll !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  
+  .intro-overlay {
+    background: rgba(0, 0, 0, 0.6) !important; /* Lighter overlay for mobile */
+  }
+}
+
